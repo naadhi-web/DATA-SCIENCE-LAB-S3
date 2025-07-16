@@ -1,0 +1,4 @@
+tuple = (('Naadhi', 21),('jalala', 24), ('yusra', 28))
+print("Tuple=",tuple)
+dictionary = dict(tuple)
+print("Dictionary=",dictionary)
