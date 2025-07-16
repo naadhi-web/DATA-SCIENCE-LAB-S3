@@ -1,0 +1,31 @@
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+= RESTART: C:/Users/Admin/AppData/Local/Programs/Python/Python313/naadhi/Prgrm1.py
+Enter an integer to the list:
+20
+Is it end of list?(y/n)
+
+Enter an integer to the list:
+30
+Is it end of list?(y/n)
+
+Enter an integer to the list:
+12
+Is it end of list?(y/n)
+y
+The List = [20, 30, 12]
+Maximum Value in this list: 30
+
+= RESTART: C:/Users/Admin/AppData/Local/Programs/Python/Python313/naadhi/prgrm2.py
+Original List: [9, 9, 5, 6, 3, 4, 1, 9, 2, 4, 2]
+Duplicates Removed List :  [1, 2, 3, 4, 5, 6, 9]
+
+= RESTART: C:/Users/Admin/AppData/Local/Programs/Python/Python313/naadhi/prgrm3.py
+Tuple= (('Naadhi', 21), ('jalala', 24), ('yusra', 28))
+Dictionary= {'Naadhi': 21, 'jalala': 24, 'yusra': 28}
+
+= RESTART: C:/Users/Admin/AppData/Local/Programs/Python/Python313/naadhi/prgrm4.py
+Dictionary 1= {'a': 1, 'b': 2}
+Dictionary 2= {'c': 3, 'd': 4}
+
