@@ -15,3 +15,48 @@ library(class)
 pred=knn(food1,tomato1,food$FoodType,k)
 cat("Predicted Food Type of Tomato:\n")
 print(pred)                                                                                                                                                                                                       
+
+
+output:
+> food=read.csv("C:/Users/Admin/Downloads/food.csv")
+> tomato=data.frame(ingredient="tomato",sweetness=6,crunchiness=4)
+> food1=food[,2:3]
+> tomato1=tomato[,2:3]
+> k <- as.numeric(readline(prompt = "Enter the value of k:"))
+Enter the value of k:3
+> k <- as.numeric(readline(prompt = "Enter the value of k:"))
+Enter the value of k:3
+> # Inputs the value of k from user while using Rscript
+> cat("Enter the value of k:")
+Enter the value of k:> 3
+[1] 3
+> k=scan("stdin", integer(), n=1)
+Read 0 items
+> library(class)
+> pred=knn(food1,tomato1,food$FoodType,k)
+Error in if (ntr < k) { : argument is of length zero
+> cat("Predicted Food Type of Tomato:\n")
+Predicted Food Type of Tomato:
+> tomato=data.frame(Ingredient="tomato",Sweetness=6,Crunchiness=4)
+> # Create a data frame of second and third columns of food
+> food1=food[,2:3]
+> # Create a data frame of second and third columns of tomato
+> tomato1=tomato[,2:3]
+> # Inputs the value of k from user while using RGui
+> k <- as.numeric(readline(prompt = "Enter the value of k:"))
+Enter the value of k:3
+> # Inputs the value of k from user while using Rscript
+> cat("Enter the value of k:")
+Enter the value of k:> 3
+[1] 3
+> library(class)
+> pred=knn(food1,tomato1,food$FoodType,k)
+> cat("Predicted Food Type of Tomato:\n")
+Predicted Food Type of Tomato:
+> print(pred)
+[1] fruit
+Levels: fruit protein vegetable
+> print(pred)
+[1] fruit
+Levels: fruit protein vegetable
+> 
